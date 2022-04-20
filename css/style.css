@@ -39,7 +39,8 @@
 
 body{
     font-family: var(--primary-font);
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
+    /* background-color: #0e1525; */
 }
 
 /* a{
@@ -89,7 +90,8 @@ h1{
     font-size: 54px;
     line-height: 68px;
     font-weight: 800;
-    color: var(--text-white);
+    /* color: var(--text-white); */
+    color: #bebed6;
     margin-bottom: 20px;
 }
 h1 span{
@@ -193,4 +195,17 @@ button{
 .header-scrolled .nav-item .nav-link.active,
 .header-scrolled .nav-item .nav-link:hover{
     color: var(--primary-text);
+}
+
+/* 3.Banner   */
+.banner_wrapper{
+    width: 100%;
+    height: auto;
+    min-height: 1000px;
+    background-image: url('../images/bg-banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 0 100px 0;
 }
